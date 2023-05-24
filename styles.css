@@ -127,7 +127,49 @@ span + .contact:hover {
     margin-top: 5px;
 }
 
+@media (max-width: 768px) {
+    
+    body {
+        min-height: 100vh;
+    }
 
+    .flip-container, .front, .back {
+        height: 250px;
+        width: 400px;
+    }
+
+    .back {
+        background-position: center;
+    }
+
+    h1, p, .icons {
+        margin-left: 10%;
+    }
+
+    p {
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body {
+        min-height: 100vh;
+    }
+
+    .flip-container, .front, .back {
+        height: 200px;
+        width: 300px;
+    }
+
+    h1, p, .icons {
+        margin-left: 5%;
+    }
+
+    p {
+        width: 80%;
+    }
+}
 
 
 
