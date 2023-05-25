@@ -162,13 +162,26 @@ span + .contact:hover {
         width: 300px;
     }
 
-    h1, p, .icons {
-        margin-left: 5%;
+    h1, p {
+        font-size: 10px;
     }
 
-    p {
-        width: 80%;
+    .flip-container i {
+        font-size: 11px;
     }
+
+    .icon-group {
+       margin-left: -15%;
+    }
+
+    .back .icon-box {
+        height: 15px;
+        width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 
